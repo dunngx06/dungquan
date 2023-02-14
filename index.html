@@ -198,7 +198,12 @@
         var header = document.getElementById('header')
         var mobileMenu = document.getElementById('mobile-menu')
         var headerHeight = header.clientHeight
-        
+        var slider = document.getElementById('slider')
+        var content = document.getElementById('content')
+        var tuor = document.getElementById('tuor')
+        var contact = document.getElementById('contact')
+        var footer = document.getElementById('footer')
+
         mobileMenu.onclick = function () {
             var isClose = header.clientHeight === headerHeight
             if (isClose) {
@@ -220,6 +225,22 @@
                     header.style.height = null
                 }
             }
+        }
+
+        slider.onclick = function() {
+            header.style.height = null
+        }
+        content.onclick = function() {
+            header.style.height = null
+        }
+        tuor.onclick = function() {
+            header.style.height = null
+        }
+        contact.onclick = function() {
+            header.style.height = null
+        }
+        footer.onclick = function() {
+            header.style.height = null
         }
 
         // đóng mở modal
