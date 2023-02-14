@@ -1,0 +1,159 @@
+
+/* PC */
+@media (min-width: 64em) {
+
+}
+
+/* TABLET & MOBILE */
+@media (max-width: 63.9375em) {
+    .place-buy-btn {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-radius: 2px;
+        padding: 16px;
+    }
+
+    .place-buy-btn:hover {
+        padding: 17px;
+    }
+    
+    .form-control {
+        padding: 16px !important;
+        font-size: 18px;
+    }
+    
+    .contact-send {
+        width: 100%;
+        margin: 8px 0;
+        border-radius: 2px;
+        padding: 16px;
+        font-size: 18px;
+    }
+
+    .contact-send:hover {
+        padding: 17px;
+    }
+
+}
+
+/* TABLET */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    .nav .subnav a {
+        padding: 5px 12px;
+    }   
+
+    .contac-address > p {
+        line-height: 2;
+    }
+
+    .form-control {
+        padding: 16px !important;
+    }
+    
+    #footer .socals-list > a {
+        font-size: 32px;
+        margin-left: 16px;
+    }
+    
+    #footer p {
+        font-size: 20px;
+    }
+
+    #footer p a {
+        padding: 12px 0;
+        display: inline-block;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 46.1875em) {
+    .nav > li {
+        display: block;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+    
+    .header-search {   
+        display: none;
+    }
+
+    .header-menu {
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .nav {
+        display: block;
+    }
+     
+    .nav > li:first-child {
+        display: inline-block ;
+    }
+
+    .nav li a {
+        padding: 1px 24px;
+    }
+
+    .nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    .nav .subnav a {
+        color: #fff;
+        padding: 4px 40px;
+    }   
+
+    .text-slider {
+        display: none;
+    }
+
+    #content .member-item {
+        width: 100%;
+    }
+
+    #content .member-img {
+        width: 60%;
+        margin: 0 0 16px;
+    }
+
+    #content .member-name {
+        margin: 15px 0;
+    }
+
+    .tour-section .place-item {
+        width: 100%;
+    }
+    
+    .contac-address > p {
+        line-height: 1.8;
+    }
+
+    .contac-address,
+    .contact-form,
+    .form-control {
+        width: 100%;
+    }
+
+    .top-contact-form {
+        display: block;
+        margin-top: 16px;
+    }
+
+    .bottom-form-control {
+        margin: 8px 0;
+    }
+
+    .top-form-control .form-control {
+        margin: 8px 0 0;
+    }
+    
+    .form-control {
+        padding: 12px !important;
+    }
+}
