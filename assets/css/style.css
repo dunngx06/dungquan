@@ -214,17 +214,20 @@ html {
 }
 #content .member-list {
     padding: 32px 8px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #content .member-item {
-    float: left;
-    width: 33.33333%;
-    text-align: center;
+    width: 33.333%;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #content .member-name {
     font-size: 15px;
-   
 }
 
 #content .member-img {
@@ -232,6 +235,14 @@ html {
     margin-top: 15px;
     border-radius: 4px;
 }
+
+#content .member-img:hover {
+    width: 155px;
+    box-shadow:  0 10px 30px rgba(78, 78, 78, 0.6);
+    position: absolute;
+    margin-top: 32px;
+}
+
 /* Tuor Section */
 .tour-section {
     background-color: #000;
@@ -295,7 +306,7 @@ html {
     color: #000;
     padding: 16px;
     font-size: 15px;
-
+    position: relative;
 }
 
 .place-heading {
@@ -309,7 +320,7 @@ html {
 }
 
 .place-desc {
-    margin: 15px 0;
+    margin-top: 15px;
     line-height: 1.5;
 }
 
@@ -319,15 +330,18 @@ html {
     text-decoration: none;
     padding: 11px 16px;
     display: inline-block;
+    border-radius: 4px;
     border: none;
+    margin-top: 15px;
     -webkit-appearance: none;
 }
 
 .place-buy-btn:hover {
     background-color: #3b3b3b;
-    border-radius: 5px;
+    border-radius: 6px;
     cursor: pointer;
     padding: 13px 18px;
+    margin-top: 11px;
 }
 
 .modal {
@@ -501,6 +515,7 @@ html {
     color: #fff;
     padding: 8px 16px;
     margin: 16px 8px 16px 0;
+    border-radius: 4px;
     float: right;
     border: none;
     -webkit-appearance: none;
@@ -508,9 +523,10 @@ html {
 
 .contact-send:hover {
     background-color: #3b3b3b;
-    border-radius: 4px;
+    border-radius: 5px;
     cursor: pointer;
     padding: 9px 17px;
+    margin-top: 14px;
 }
 
 .map-section img {
