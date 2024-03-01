@@ -8,8 +8,20 @@ function login() {
   console.log('Đã đăng nhập:', username);
 }
 
+//Đăng ký
+function validateForm() {
+    var password = document.getElementById("password").value;
+    var confirm_password = document.getElementById("confirm_password").value;
 
-        // đóng mở menu
+    if (password !== confirm_password) {
+        alert("Mật khẩu và xác nhận mật khẩu không khớp.");
+    } else {
+        // Gửi dữ liệu form đăng ký đến server hoặc thực hiện các chức năng khác ở đây.
+        alert("Đăng ký thành công!");
+    }
+}
+
+// đóng mở menu
         var header = document.getElementById('header')
         var mobileMenu = document.getElementById('mobile-menu')
         var headerHeight = header.clientHeight
@@ -57,27 +69,3 @@ function login() {
         footer.onclick = function() {
             header.style.height = null
         }
-
-        // đóng mở modal
-        const buyBtns = document.querySelectorAll('.js-buy-ticket')
-        const closeModal = document.querySelector('.js-modal-close')
-        const modal = document.querySelector('.js-modal')
-        const modalContainer = document.querySelector('.js-modal-container')
-
-        function showBuyTickets() {
-            modal.classList.add('modal-open')
-        }
-
-        function closeBuyTickets() {
-            modal.classList.remove('modal-open')
-        }
-
-        for (const buyBtn of buyBtns) {
-            buyBtn.addEventListener('click', showBuyTickets)
-        }
-
-        closeModal.addEventListener('click', closeBuyTickets)
-        modal.addEventListener('click', closeBuyTickets)
-        modalContainer.addEventListener('click', function (even) {
-            even.stopImmediatePropagation()
-        })
