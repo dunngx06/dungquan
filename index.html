@@ -20,7 +20,14 @@
                 <li><a href="#contact">Liên hệ</a></li>
                 
                 <li><!-- Bổ sung trước thẻ đóng </form> -->
-<a href="login.html">Đăng nhập</a></li>
+                    <a href="#">
+                        Đăng nhập/Đăng ký<i class=" ti-angle-down icon-down"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="login.html">Đăng nhập</a></li>
+                        <li><a href="registration.html">Đăng ký</a></li>
+                    </ul>
+                </li>
 
                 <li>
                     <a href="#">
@@ -59,62 +66,12 @@
                         <p class="member-name">Name</p>
                         <img src="./assets/img/bandmember.jpg" alt="" class="member-img">
                     </div>
-                    <div class="member-item">
-                        <p class="member-name">Name</p>
-                        <img src="./assets/img/bandmember.jpg" alt="" class="member-img">
-                    </div>
-                    <div class="member-item">
-                        <p class="member-name">Name</p>
-                        <img src="./assets/img/bandmember.jpg" alt="" class="member-img">
-                    </div>
                     <div class="clear"></div>
                 </div>
             </div>
-
-            <!-- TOUR -->
-             
-           <!-- <div id="tuor" class="tour-section">
-                <div class="content-section">
-                    <h2 class="section-heading text-white">TOUR DATES</h2>
-                    <p class="section-sub-heading text-white">lungtalungtung</p>
-
-                    <ul class="tickets-list">
-                        <li>September <span class="sold-out">Sold out</span></li>
-                        <li>October <span class="sold-out">Sold out</span></li>
-                        <li>November <span class="quantity">3</span></li>
-                    </ul>
-                    <div class="place-list">
-                        <div class="place-item">
-                            <img src="./assets/img/newyork.jpg" alt="New York" class="place-img">
-                            <div class="place-content">
-                                <h3 class="place-heading">New York</h3>
-                                <p class="place-time">Fri 27 Nov 2016</p>
-                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.                                </p>
-                                <button class="place-buy-btn js-buy-ticket">Buy Tickets</button>
-                            </div>
-                        </div>
-                        <div class="place-item">
-                            <img src="./assets/img/paris.jpg" alt="Paris" class="place-img">
-                            <div class="place-content">
-                                <h3 class="place-heading">Paris</h3>
-                                <p class="place-time">Sat 28 Nov 2016</p>
-                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <button class="place-buy-btn js-buy-ticket">Buy Tickets</button>
-                            </div>
-                        </div>
-                        <div class="place-item">
-                            <img src="./assets/img/sanfran.jpg" alt="San Francisco" class="place-img">
-                            <div class="place-content">
-                                <h3 class="place-heading">San Francisco</h3>
-                                <p class="place-time">Sun 29 Nov 2016</p>
-                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.                                </p>
-                                <button class="place-buy-btn js-buy-ticket">Buy Tickets</button>
-                            </div>
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                </div>
-            </div> -->
+            <div class="border-bottom">
+                
+            </div>
 
             <!-- CONTACT -->
 
@@ -166,36 +123,7 @@
             <p>Powered by <a href="#">w3.css</a></p>
         </div>
     </div>
-    <div class="modal js-modal">
-        <div class="modal-container js-modal-container">
-            <div class="modal-close js-modal-close">
-                <i class="ti-close"></i>
-            </div>
-            <header class="modal-header">
-                <i class="ti-bag modal-icon-bag"></i>
-                Tickets
-            </header>
-            <div class="modal-body">
-                <label for="modal-quantity" class="modal-label">
-                    <i class="ti-shopping-cart"></i>
-                    Tickets, $15 per person
-                </label>
-                <input id="modal-quantity" type="text" class="modal-input" placeholder="How many?">
-                <label for="modal-email" class="modal-label">
-                    <i class="ti-user"></i>
-                    Send to
-                </label>
-                <input id="modal-email" type="email" class="modal-input" placeholder="Enter email...">
-                <button id="buy-tickets">
-                    Pay
-                    <i class="ti-check"></i>
-                </button>
-            </div>
-            <footer class="modal-footer">
-                <p class="modal-help">Need <a href="#">help?</a></p>
-            </footer>
-        </div>
-    </div>
+
     <script src="./assets/script/script.js"></script>
 </body>
 </html>
