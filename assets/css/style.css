@@ -244,6 +244,20 @@ html {
     margin-top: 15px;
     border-radius: 4px;
 }
+
+/* STORAGE */
+.storage-text {
+    font-size: 20px;
+}
+
+.storage-text a {
+    font-size: 16px;
+}
+
+.storage-text button {
+    padding: 2px 8px;
+}
+
 /* CONTACT */
 .contact-section {
     padding: 64px 16px;
