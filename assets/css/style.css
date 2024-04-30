@@ -402,6 +402,23 @@ html {
     flex-direction: column;
 }
 
+/* LUYEN DE LY THAY VNA */
+
+.content-luyendelythayvna {
+    width: 800px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 8px;
+}
+
+.content-luyendelythayvna .content-text {
+    text-align: left;
+    margin: 15px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
 
 #footer {
     padding: 64px 16px;
